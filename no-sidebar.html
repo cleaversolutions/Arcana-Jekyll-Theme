@@ -8,7 +8,7 @@ layout: default
 		<div class="container">
 			<div id="content">
 
-				{% for newsletter in site.site.newsletters %}
+				{% for newsletter in site.newsletters %}
   <h2>{{ newsletter.title }}</h2>
   <p>Performed by {{ album.artist }}{% if album.director %}, directed by {{ album.director }}{% endif %}</p>
   {% for work in album.works %}
