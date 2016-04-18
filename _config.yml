@@ -4,4 +4,6 @@ paginate: 10
 baseurl: '/Arcana-Jekyll-Theme'
 
 collections:
-- newsletters
+- newsletters:
+    newsletter_file_path:
+    title:
