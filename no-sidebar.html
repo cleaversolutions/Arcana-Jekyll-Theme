@@ -10,7 +10,7 @@ layout: default
 
 				{% for newsletter in site.newsletters %}
   <h2>{{ newsletter.title }}</h2>
-  <p>Performed by {{ newsletter.newsletter_file_path }}</p>
+  <p>Performed by <a href="{{ newsletter.newsletter_file_path }}">Download Link</a></p>
   {% endfor %}
 		
 			</div>
