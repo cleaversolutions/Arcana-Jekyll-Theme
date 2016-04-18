@@ -1,5 +1,5 @@
 ---
-title: Newsletter
+title: August 2016
 layout: default
 ---
 			
@@ -10,17 +10,8 @@ layout: default
 
 				{% for newsletter in site.newsletters %}
   <h2>{{ newsletter.title }}</h2>
-  <p>Performed by {{ album.artist }}{% if album.director %}, directed by {{ album.director }}{% endif %}</p>
-  {% for work in album.works %}
-    <h3>{{ work.title }}</h3>
-    <p>Composed by {{ work.composer }}</p>
-    <ul>
-    {% for track in work.tracks %}
-      <li>{{ track.title }} ({{ track.duration }})</li>
-    {% endfor %}
-    </ul>
+  <p>Performed by {{ album.artist }}</p>
   {% endfor %}
-{% endfor %}
 		
 			</div>
 		</div>
