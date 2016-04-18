@@ -7,3 +7,4 @@ collections:
   newsletters:
     newsletter_file_path:
     title:
+    publication_date:
