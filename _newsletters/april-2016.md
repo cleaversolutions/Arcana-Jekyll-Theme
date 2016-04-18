@@ -1,4 +1,6 @@
 ---
 title: April 2016
-newsletter_file_path: '/newsletters/gift registry : print view.pdf'
+newsletter_file_path: /newsletters/the nancy l. halbert heraldry letter.pdf
 ---
+
+
