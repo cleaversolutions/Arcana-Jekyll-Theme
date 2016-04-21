@@ -42,4 +42,4 @@ portfolio:
   </div>
 </section>
 
-{% for file in site.static_files %}{% if file.path contains '/newsletters/' %}<p>{{file.path}}</p>{% endif %}{% endfor %}
+{% for file in site.static_files %}{% if file.path contains '/newsletters/' %}<p>{{ file.path | remove:'/newsletters/'}}</p>{% endif %}{% endfor %}
