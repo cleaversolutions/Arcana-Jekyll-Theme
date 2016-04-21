@@ -1,5 +1,7 @@
 ---
 title: Month Year
 newsletter_file_path:
-publication_date: 2015-01-09
+publication_date: {{ page.date | date: "%Y-%m-%d" }}
 ---
+
+{{ page.date | date: "%Y-%m-%d" }}
