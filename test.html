@@ -42,4 +42,4 @@ portfolio:
   </div>
 </section>
 
-{% for file in site.static_files %}{% if file.path contains '/newsletters/' %}<p>{{ file.path | remove:'/newsletters/' | capitalize | remove: '.pdf' | replace:'01','January'| replace:'02','February'| replace:'03','March'| replace:'04','April'| replace:'05','May'| replace:'06','June'| replace:'07','July' }}</p>{% endif %}{% endfor %}
+{% for file in site.static_files %}{% if file.path contains '/newsletters/' %}<p>{{ file.path | remove:'/newsletters/' | capitalize | remove: '.pdf' | replace:'01-','January '| replace:'02-','February '| replace:'03-','March '| replace:'04-','April '| replace:'05-','May '| replace:'06-','June '| replace:'07-','July ' }}</p>{% endif %}{% endfor %}
